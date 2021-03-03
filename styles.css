@@ -1,0 +1,116 @@
+:root {
+    /* Primary */
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+
+    /* Neutral */
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue:hsl(212, 86%, 64%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: var(--very-light-gray);
+    color: var(--very-dark-blue);
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h1 {
+    font-weight: 400;
+}
+/* 
+.power {
+    font-size: 20px;
+    font-weight: 600;
+} */
+
+.container h2 {
+    margin: 10px 0 10px 0;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+p {
+    margin: 0;
+}
+
+section{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.box {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    margin: 0;
+}
+
+section p {
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+section h4 {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 60px;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.supervisor {
+    border-top: 4px solid var(--cyan);
+    display: flex;
+    align-content: space-around;
+}
+
+.builder {
+    border-top: 4px solid var(--red);
+}
+
+.karma {
+    border-top: 4px solid var(--orange);
+}
+
+.calculator {
+    border-top: 4px solid var(--blue);
+}
+
